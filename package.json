@@ -4,7 +4,7 @@
   "description": "Browser-based order console with a Node + SQLite backend (zero dependencies)",
   "main": "src/server.js",
   "type": "commonjs",
-  "engines": { "node": ">=22.5" },
+  "engines": { "node": "22.x" },
   "scripts": {
     "seed": "node scripts/seed.js",
     "reseed": "node scripts/seed.js --reset",

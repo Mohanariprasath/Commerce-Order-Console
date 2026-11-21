@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Local SQLite database
+data/*.db*
+
+# Deployment & local AI tooling
+.vercel/
+.agents/
+
+# Environment & OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log

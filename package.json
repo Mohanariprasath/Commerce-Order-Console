@@ -1,0 +1,14 @@
+{
+  "name": "commerce-order-console",
+  "version": "1.0.0",
+  "description": "Browser-based order console with a Node + SQLite backend (zero dependencies)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "reseed": "node scripts/seed.js --reset",
+    "start": "node --no-warnings src/server.js",
+    "test": "node --no-warnings --test test/api.test.js"
+  }
+}
